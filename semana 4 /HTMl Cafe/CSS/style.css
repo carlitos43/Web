@@ -1,0 +1,46 @@
+
+#wrpper{
+	width: 940px;
+	margin: auto;
+}
+img{
+	width: 1000px;
+	max-width: 100%;
+}
+
+	footer{clear: both;
+	}
+	p{color:black;
+	}
+
+	article {
+		float:left;
+	}
+	article {float:right; 
+	}
+.down
+{ color : white ;
+}
+nav{ background-color: brown;
+text-align:center;
+}
+nav>ul>li {
+	display: inline;
+}
+footer{ background-color: brown;
+}
+a{text-decoration:none;
+display: inline-block;
+width: 200px;
+padding: 20px 25px 35px 25px;
+font-family: helvetica;
+color: white;
+}
+a:link, a:visited{
+background-color:brown;
+
+}
+a:hover, a:active{
+background-color:red;
+}
+ 

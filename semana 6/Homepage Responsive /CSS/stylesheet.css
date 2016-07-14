@@ -1,0 +1,65 @@
+#wrapper{width:1000px;
+	margin: auto;
+}
+
+
+
+img {
+width: 500px;
+display: block;
+margin:auto;
+max-width: 100%;
+}
+button
+{
+color:white;
+background:black; 
+}
+nav > ul 
+{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+nav{text-align:center;}
+#nav > li
+{
+	display: inline-block;
+	padding-right: 80px;
+}
+
+section {
+	float: left;
+}
+
+aside {
+	float: right; 
+	border: 1px solid black;
+}
+footer{clear:both;}
+
+@media screen and (max-width: 600px){
+nav{max-width: 100%;}
+#nav > li
+{
+	display:block;
+	padding-right: 80px;
+}
+section {
+	float: none;
+	width: 90%;
+}
+aside 
+{float: none;
+width: 50%;
+}
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+img {
+margin:auto;
+}
+button
+{
+color:white;
+background:black; 
+}
+nav > ul 
+{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+#nav > li
+{
+	display: inline-block;
+	padding-right: 80px;
+}
+
+section {
+	float: left;
+}
+
+aside {
+	float: right;
+}
+footer{clear:both;}
+
+{}
+
+
+
+
+
+
+
+
