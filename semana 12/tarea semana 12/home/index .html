@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RACE MUGS</title> 
+</head>
+<body>
+<div id="wrapper">
+<header>
+	<img id="logo" src="image/rock.png">
+</header>
+<nav>
+	<ul>
+<li><a href="../home/index .html">HOME</a></li>
+<li><a href="../shop/index .html">STORE</a></li>
+<li><a href="../contact us/index .html">CONTACT US</a></li>
+<input type="text" name="search" placeholder="Search..">
+	</ul>
+</nav>
+
+<div id="di" class="w3-content w3-section" style="max-width:960px">
+  <img class="mySlides" src="image/rwd.jpg" style="width:100%">
+  <img class="mySlides" src="image/0.jpg" style="width:100%">
+  <img class="mySlides" src="image/f40.jpg" style="width:100%">
+  <img class="mySlides" src="image/gt3.jpg" style="width:100%">
+  <img class="mySlides" src="image/f1.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 10 seconds
+}
+</script>
+<footer>
+<p class="down"> © 2016 RACEMUGS.</p>
+</footer>
+</div>
+</body>
+</html>
